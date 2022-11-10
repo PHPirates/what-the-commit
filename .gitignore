@@ -1,6 +1,5 @@
 /out
-/.idea/misc.xml
-/.idea/tasks.xml
-/.idea/shelf
-/.idea/workspace.xml
+.idea
 what-the-commit.jar
+.gradle
+build

@@ -21,7 +21,7 @@
   ~ OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
   -->
 
-<idea-plugin version="2">
+<idea-plugin>
     <id>com.eclectide.intellij.whatthecommit</id>
     <name>What The Commit</name>
     <version>1.2</version>
@@ -33,6 +33,10 @@
     ]]></description>
 
     <change-notes><![CDATA[
+    <p>1.3</p>
+    <ul>
+        <li>Change http url to https</li>
+    </ul>
     <p>1.2</p>
     <ul>
         <li>Add IntelliJ proxy support</li>
@@ -55,7 +59,7 @@
     <actions>
         <action id="WhatTheCommit.Button" class="com.eclectide.intellij.whatthecommit.WhatTheCommitAction"
                 text="What The Commit"
-                description="Load random message" icon="/load.png">
+                description="Load random message" icon="load.png">
             <add-to-group group-id="Vcs.MessageActionGroup" anchor="first"/>
         </action>
     </actions>
